@@ -1,0 +1,86 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #48a9c4; /* Light gray background */
+    color: #333; /* Text color */
+    background-image: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg'); /* Replace 'path/to/your/background-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgb(173, 92, 92); /* White background for navigation */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff0000; /* Blue link color */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main Content styles */
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue for section headings */
+}
+
+.intro-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffffff; /* White background for footer */
+    color: #333;
+    text-align: center;
+    padding: 15px 0;
+}
